@@ -15,7 +15,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-FROM registry.access.redhat.com/ubi10@sha256:454c3b22fd9dc97859df5a6bce662da1af5e3cf18313ef034190de3759392add AS builder
+FROM registry.access.redhat.com/ubi10@sha256:87ceab8634a53a36c75a8ba7282f09f11c46ab3e8906db6c6d2b3cd2a7dc4f4e AS builder
 # curl to install claude and also run commands inside the sandbox
 # tar is required by OpenShell
 ARG PACKAGES="curl tar"
